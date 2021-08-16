@@ -28,7 +28,7 @@
 1. Go to Kinesis Data Analytics Console: console.aws.amazon.com/kinesisanalytics
 2. Click on the Studio tab and select the notebook you have created in the previous step
 3. Click on Run and Click on Open in Apache Zeppelin once the statue of the Notebook is running
-![kda4](/images/kda4.png)
+![kda4](/images/kda4.PNG)
 
 ## Working with Kinesis Data Analytics Studio - create a prerequisite notebook
 1. In the notebook console create a new note
