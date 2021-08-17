@@ -55,7 +55,7 @@ response = dynamodb.create_table(
     AttributeDefinitions=[
         {
             'AttributeName': 'pk',
-            'AttributeType': 'S'
+            'AttributeType': 'N'
         },
     ],
     TableName='lab3',
