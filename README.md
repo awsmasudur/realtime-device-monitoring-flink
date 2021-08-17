@@ -105,7 +105,7 @@ tableName='lab3'
 s3 = boto3.resource('s3')
 dynamodb = boto3.client('dynamodb', region_name=region)
 bucket='YOUR_BUCKETNAME'
-key='[mycsvpath]/latlon.csv'
+key='lab3/latlon.csv'
 obj = s3.Object(bucket, key).get()['Body']
 batch_size = 100
 batch = []
