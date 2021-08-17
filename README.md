@@ -122,7 +122,7 @@ for row in csv.DictReader(codecs.getreader('utf-8')(obj)):
     response = dynamodb.put_item(
         TableName=tableName,
         Item={
-        'pk' : {'S':str(pk)},
+        'pk' : {'N':str(pk)},
         'postcode': {'S':postcode},
         'suburb': {'S':suburb},
         'State': {'S':State},
