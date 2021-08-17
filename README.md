@@ -1,4 +1,4 @@
-# Realtime device monitoring with Apache Flink on Kinesis Data Analytics
+# Real-time device monitoring with Apache Flink on Kinesis Data Analytics
 
 
 ## Reference architecture
